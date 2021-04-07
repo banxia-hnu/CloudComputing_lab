@@ -7,6 +7,7 @@ public class SudokuSolver {
     // INNER TYPES
     // -----
     private static String pathname="test1";
+
     private final static class FileFormatException extends Exception {
 
         /**
@@ -87,7 +88,7 @@ public class SudokuSolver {
             System.out.println("Une erreur s'est produite lors de la lecture du fichier.");
         }
         }
-    public void sudokuSolver(String pathname){
+    public static void sudokuSolver(String pathname){
         // a dummy board solve to force the JIT compiler to precompile everything. (much faster)
         solveBoard(new int[][] {
                 new int[] {0,0,0,0,0,0,0,0,0},
@@ -122,7 +123,7 @@ public class SudokuSolver {
             writer.newLine();
             writer.flush();
             writer.close();
-            System.out.println(Thread.currentThread().getName());
+//            System.out.println(Thread.currentThread().getName());
         }
         catch (final FileFormatException e) {
             System.out.println(e);

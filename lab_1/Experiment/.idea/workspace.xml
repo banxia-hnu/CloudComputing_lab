@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eb78df4-f5c4-4f78-b306-ad1f01c0bd5b" name="默认更改列表" comment="" />
+    <list default="true" id="4eb78df4-f5c4-4f78-b306-ad1f01c0bd5b" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Experiment/NotMultiThreadSudokuSolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NotMultiThreadSudokuSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/answer" beforeDir="false" afterPath="$PROJECT_DIR$/answer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/SudokuSolver$FileFormatException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/SudokuSolver$FileFormatException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/SudokuSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/SudokuSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortedAnswer" beforeDir="false" afterPath="$PROJECT_DIR$/sortedAnswer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SudokuSolver.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,16 +28,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1qnP60bR4NBBq18PpL2cHLg03Gk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -36,19 +52,16 @@
       <recent name="E:\360MoveData\Users\Windows User\Desktop\大学\大三下学期\云计算技术\Experiment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SudokuSolver">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+  <component name="RunManager" selected="Application.NotMultiThreadSudokuSolver">
+    <configuration name="MultiThreadSudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreadSudokuSolver" />
       <module name="Experiment" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadSudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreadSudokuSolver" />
+    <configuration name="NotMultiThreadSudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NotMultiThreadSudokuSolver" />
       <module name="Experiment" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,14 +95,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.SudokuSolver" />
       <item itemvalue="Application.testFile" />
       <item itemvalue="Application.MultiThreadSudokuSolver" />
       <item itemvalue="Application.SortAnswer" />
+      <item itemvalue="Application.NotMultiThreadSudokuSolver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotMultiThreadSudokuSolver" />
         <item itemvalue="Application.SudokuSolver" />
         <item itemvalue="Application.MultiThreadSudokuSolver" />
         <item itemvalue="Application.SortAnswer" />
@@ -113,11 +127,15 @@
       <workItem from="1617793900483" duration="1442000" />
       <workItem from="1617795513380" duration="5204000" />
       <workItem from="1617803721132" duration="627000" />
+      <workItem from="1617807042753" duration="596000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="796" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617794019869">
@@ -128,26 +146,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617783808359" />
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1617804359218">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="529" y="109" key="CommitChangelistDialog2" timestamp="1617807638539">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="529" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617807638539" />
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom" timestamp="1617807597227">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1617804359218" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617795375601" />
-    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1617804359218">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617807597227" />
+    <state width="1877" height="259" key="GridCell.Tab.0.center" timestamp="1617807597227">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1617804359218" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617795375601" />
-    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1617804359218">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1877" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617807597227" />
+    <state width="1877" height="259" key="GridCell.Tab.0.left" timestamp="1617807597227">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1617804359218" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617795375601" />
-    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1617804359218">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1877" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617807597227" />
+    <state width="1877" height="259" key="GridCell.Tab.0.right" timestamp="1617807597227">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1617804359218" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617795375601" />
+    <state width="1877" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617807597227" />
     <state x="467" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1617803722112">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -167,17 +189,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/SudokuSolver.java</url>
-          <line>563</line>
+          <line>564</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/SudokuSolver.java</url>
-          <line>134</line>
+          <line>135</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/SudokuSolver.java</url>
-          <line>500</line>
+          <line>501</line>
           <properties class="SudokuSolver">
             <option name="EMULATED" value="true" />
           </properties>
