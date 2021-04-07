@@ -29,7 +29,7 @@ public class MultiThreadSudokuSolver {
         fileWriter1.close();
 
         long startTime=System.nanoTime();
-        File file=new File("test1");
+        File file=new File("test10000");
         final BufferedReader input =  new BufferedReader(new FileReader(file));
         ExecutorService executorService= Executors.newCachedThreadPool();
         int i=1;
