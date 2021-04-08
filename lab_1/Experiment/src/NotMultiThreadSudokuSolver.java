@@ -22,7 +22,7 @@ public class NotMultiThreadSudokuSolver {
         fileWriter1.close();
 
         long startTime = System.nanoTime();
-        File file = new File("test10000");
+        File file = new File("test100");
         final BufferedReader input = new BufferedReader(new FileReader(file));
         try {
             String line = null;

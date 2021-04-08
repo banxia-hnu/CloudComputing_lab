@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eb78df4-f5c4-4f78-b306-ad1f01c0bd5b" name="默认更改列表" comment="第三次提交，增加danceLinking算法（实验没用）">
+    <list default="true" id="4eb78df4-f5c4-4f78-b306-ad1f01c0bd5b" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Experiment/NotMultiThreadSudokuSolver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NotMultiThreadSudokuSolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/answer" beforeDir="false" afterPath="$PROJECT_DIR$/answer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/SudokuSolver$FileFormatException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/SudokuSolver$FileFormatException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/SudokuSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/SudokuSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortedAnswer" beforeDir="false" afterPath="$PROJECT_DIR$/sortedAnswer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SudokuSolver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,20 +20,6 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,32 +45,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15158637" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\git\gitcode\CloudComputing_lab\lab_1\Experiment\src" />
       <recent name="E:\360MoveData\Users\Windows User\Desktop\大学\大三下学期\云计算技术\Experiment" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Examples">
-    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dlx.Examples" />
-      <module name="Experiment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dlx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NotMultiThreadSudokuSolver">
     <configuration name="MultiThreadSudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MultiThreadSudokuSolver" />
       <module name="Experiment" />
@@ -104,20 +81,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.testFile" />
+      <module name="Experiment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SudokuSolver" />
+      <item itemvalue="Application.testFile" />
       <item itemvalue="Application.MultiThreadSudokuSolver" />
       <item itemvalue="Application.SortAnswer" />
       <item itemvalue="Application.NotMultiThreadSudokuSolver" />
-      <item itemvalue="Application.Examples" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Examples" />
         <item itemvalue="Application.NotMultiThreadSudokuSolver" />
         <item itemvalue="Application.SudokuSolver" />
         <item itemvalue="Application.MultiThreadSudokuSolver" />
         <item itemvalue="Application.SortAnswer" />
+        <item itemvalue="Application.testFile" />
       </list>
     </recent_temporary>
   </component>
@@ -137,83 +127,15 @@
       <workItem from="1617793900483" duration="1442000" />
       <workItem from="1617795513380" duration="5204000" />
       <workItem from="1617803721132" duration="627000" />
-      <workItem from="1617807042753" duration="1295000" />
-      <workItem from="1617810364445" duration="777000" />
-      <workItem from="1617864190116" duration="450000" />
-      <workItem from="1617887665625" duration="745000" />
+      <workItem from="1617807042753" duration="596000" />
     </task>
-    <task id="LOCAL-00001" summary="第二次提交，增加单线程循环处理多个数独的测试">
-      <created>1617807715008</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1617807715008</updated>
-    </task>
-    <task id="LOCAL-00002" summary="第二次提交，增加单线程循环处理多个数独的测试">
-      <created>1617807795311</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1617807795311</updated>
-    </task>
-    <task id="LOCAL-00003" summary="第三次提交，增加danceLinking算法（实验没用）">
-      <created>1617888186208</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1617888186208</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="1">
-          <value>
-            <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="structure">
-                    <value>
-                      <list>
-                        <option value="dir:F:/git/gitcode/CloudComputing_lab/lab_1/Experiment/src/boards" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第二次提交，增加单线程循环处理多个数独的测试" />
-    <MESSAGE value="第三次提交，增加danceLinking算法（实验没用）" />
-    <option name="LAST_COMMIT_MESSAGE" value="第三次提交，增加danceLinking算法（实验没用）" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="796" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617794019869">
@@ -224,46 +146,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617783808359" />
-    <state x="529" y="109" key="CommitChangelistDialog2" timestamp="1617888190802">
+    <state x="529" y="109" key="CommitChangelistDialog2" timestamp="1617807638539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="529" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617888190802" />
-    <state width="1877" height="259" key="GridCell.Tab.0.bottom" timestamp="1617888199312">
+    <state x="529" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617807638539" />
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom" timestamp="1617807597227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1617804359218" />
-    <state width="1877" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617888199312" />
-    <state width="1877" height="259" key="GridCell.Tab.0.center" timestamp="1617888199312">
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617807597227" />
+    <state width="1877" height="259" key="GridCell.Tab.0.center" timestamp="1617807597227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1617804359218" />
-    <state width="1877" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617888199312" />
-    <state width="1877" height="259" key="GridCell.Tab.0.left" timestamp="1617888199312">
+    <state width="1877" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617807597227" />
+    <state width="1877" height="259" key="GridCell.Tab.0.left" timestamp="1617807597227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1617804359218" />
-    <state width="1877" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617888199312" />
-    <state width="1877" height="259" key="GridCell.Tab.0.right" timestamp="1617888199312">
+    <state width="1877" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617807597227" />
+    <state width="1877" height="259" key="GridCell.Tab.0.right" timestamp="1617807597227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1617804359218" />
-    <state width="1877" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617888199312" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1617888421476">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617888421476" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617888230269">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617888230269" />
+    <state width="1877" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617807597227" />
     <state x="467" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1617803722112">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="467" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1617803722112" />
-    <state x="334" y="129" key="new project wizard" timestamp="1617887713951">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1617887713951" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617784616398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
