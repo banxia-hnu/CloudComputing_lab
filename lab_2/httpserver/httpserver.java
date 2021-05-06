@@ -98,7 +98,7 @@ class httptask implements Runnable {
                 pw = new PrintWriter(os, true);
 
                 if(request.getMethod().equals("GET")){
-                    System.out.println(request);
+                 
                     if(request.getUrl().equals("/")){
                         InputStream htmlIs = httpserver.class.getClassLoader().getResourceAsStream("./index.html");
                         if (htmlIs != null) {
